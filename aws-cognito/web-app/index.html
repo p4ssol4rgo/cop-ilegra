@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+        <title>Testing Cogninto - Hosted UI</title>
+
+        <link href="app.css" rel="stylesheet" type="text/css">
+        <script type="text/javascript" src="app.js"></script>
+    </head>
+
+    <body  style="margin:0;font-family: Roboto,'Helvetica Neue', sans-serif;background-color: #ececec;" onload="app.onLoad()">
+
+        <div class="my-header">
+            <h2 style="margin: 0; padding: 5px;">Tabajara - User data</h2>
+            <div style="float:right">
+                <input type="button" id="btnLogof" onclick="app.logoff()" value="Logoff">
+            </div>
+        </div>
+    
+        <div class="form-list-container">
+    
+            <table id="tableUser">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>E-mail</th>
+                        <th>Phone number</th>
+                    </tr>
+                </thead>
+                <tbody>
+    
+                </tbody>
+            </table>
+    
+        </div>
+
+        <div style="padding: 10px;">
+            <input type="button" onclick="app.callLambdaFunction()" value="Call Lambda function.">
+        </div>
+    
+        <div class="my-footer">
+            <h6 style="margin: 0; padding: 5px;">Ilegra COP - Cognito - <strong>wilson.correa@ilegra.com</strong></h6>
+        </div>
+
+    </body>
+</html>
