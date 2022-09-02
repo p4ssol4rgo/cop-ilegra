@@ -10,7 +10,7 @@ AWS Cognito is an identity provider fully managed on AWS.
 - Supports SAML protocol.
 - Flows customization like MFA, token generation and others can be done with lambda functions.
 
-##Components
+## Components
 
 ### User pool
 Is the user database. Provides SingIn/SignUp features by a hosted UI or a custom application UI using the RestApi.
