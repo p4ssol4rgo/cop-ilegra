@@ -8,7 +8,7 @@ AWS Cognito is an identity provider fully managed on AWS.
 - Social sign in with Facebook, Google, AWS Login and Apple.
 - Implements most common specifications like OIDC and oAuth.
 - Supports SAML protocol.
-- Flows customizations like MFA, token generation and others can be done with lambda functions.
+- Flows customization like MFA, token generation and others can be done with lambda functions.
 
 ##Components
 
@@ -29,12 +29,12 @@ Follow these steps to create and configure an User pool (based on the new consol
 >This tutorial will show how to create a standard **Cognito user pool**.
 
 ### Configuring user sign-in experience
-1. Configure the attributes required in for the users in this pool to sign in (User name, Email and/or Phone numbeir) .
+1. Configure the attributes required in for the users in this pool to sign in (User name, Email and/or Phone number) .
 2. Choose **Next**.
 
 ### Configuring security requirements
 1. Read default features for password policy. If you want to change choose **Custom** option to make changes.
-2. This tutorial will not cover MFA configurations. 
+2. This tutorial will not cover MFA configurations.
 3. Configure the user recover options.
 4. Choose **Next**.
 
@@ -46,16 +46,16 @@ Follow these steps to create and configure an User pool (based on the new consol
 5. Choose **Next**.
 
 ### Message delivery
-Configure how the messages are delivery depending on how you chosse to confirm and recover accounts.
+Configure how the messages are delivery depending on how you choose to confirm and recover accounts.
 
 ### Application integration
 1. Type your user pool name.
 2. Enable **Use the Cognito Hosted UI** option.
 3. Use a Cognito domain or select your domain if you have one.
-4. Chosse public client for to allow to use in browsers.
-5. Generate a client secreted if you wanto interact direct with the Cognito REST API.
+4. Choose public client for to allow to use in browsers.
+5. Generate a client secret if you want to interact direct with the Cognito REST API.
 6. On advanced client settings select **Implicit grant** if you want access the token in the UI.
-7. Select OIDC Scopes.
+7. Select OIDC scopes.
 8. Choose **Next**
  
 Now, review the configurations and choose **Create**.
